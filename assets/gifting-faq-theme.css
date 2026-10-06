@@ -1,0 +1,141 @@
+/*
+  Scoped to .m-gifting-faq (set via the Collapsible tabs section's
+  "Custom class" setting on the Gifting page only). Does not affect
+  any other use of the collapsible-tabs section elsewhere on the site.
+*/
+.m-gifting-faq .m-collapsible-section__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.m-gifting-faq collapsible-tab.m-collapsible {
+  display: block;
+  background-color: #fefcf3;
+  border-radius: 10px;
+  padding: 4px 24px;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.m-gifting-faq collapsible-tab.m-collapsible.is-expanded {
+  background-color: #b02532;
+}
+
+.m-gifting-faq .m-collapsible--button {
+  border-bottom: none !important;
+  color: inherit;
+  font-weight: 600;
+}
+
+.m-gifting-faq collapsible-tab.is-expanded .m-collapsible--button {
+  color: #ffffff;
+}
+
+.m-gifting-faq .m-collapsible--icon {
+  color: inherit;
+}
+
+.m-gifting-faq .m-collapsible--content {
+  color: rgba(31, 27, 32, 0.7);
+}
+
+.m-gifting-faq collapsible-tab.is-expanded .m-collapsible--content {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.m-gifting-faq .m-collapsible-section .m-collapsible--content__inner {
+  padding-top: 0;
+  padding-bottom: 18px;
+}
+
+
+/* ==========================================================
+   Gifting page: "Two ways to gift with us"
+   Scoped to .m-gifting-two-ways (Custom class on this section only)
+   ========================================================== */
+
+/* Diamond divider under the section heading */
+.m-gifting-two-ways .m-custom-content__wrapper::before {
+  content: "";
+  flex: 0 0 100%;
+  height: 12px;
+  margin-bottom: 24px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 12' fill='%23B02532'%3E%3Cpath d='M0 6h30M90 6h30' stroke='%23B02532' stroke-opacity='.3' fill='none'/%3E%3Ccircle cx='38' cy='6' r='1.2'/%3E%3Ccircle cx='47' cy='6' r='1.6'/%3E%3Cpath d='M60 1l5 5-5 5-5-5z'/%3E%3Ccircle cx='73' cy='6' r='1.6'/%3E%3Ccircle cx='82' cy='6' r='1.2'/%3E%3C/svg%3E") center / 120px 12px no-repeat;
+}
+
+/* Cream card */
+.m-gifting-two-ways .m-richtext--layout-3 {
+  box-sizing: border-box;
+  width:690;
+  min-height: 136px;
+  padding: 28px 32px;
+  border-radius: 14px;
+  background-color: #fcf2c5 !important;
+}
+
+/* Unused icon area: hide it unless an icon is set */
+.m-gifting-two-ways .m-richtext__layout-3-top:not(:has(.m-richtext__icon)) {
+  display: none;
+}
+
+/* Text on the left, button on the right, aligned to the bottom */
+.m-gifting-two-ways .m-richtext__layout-3-bottom {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "title button"
+    "desc  button";
+  column-gap: 16px;
+  align-items: end;
+}
+
+.m-gifting-two-ways .m-richtext--layout-3 .m-richtext__title {
+  grid-area: title;
+  margin: 0 0 10px;
+  font-size: clamp(22px, 2.1vw, 30px);
+  line-height: 1.15;
+  font-weight: 500;
+  color: #1f1b20;
+  white-space: pre-line; /* honours the line break in "Browse\nthe catalogue" */
+}
+
+.m-gifting-two-ways .m-richtext--layout-3 .m-richtext__description {
+  grid-area: desc;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* margin-top is set inline (24px) in the section file, so !important is needed */
+.m-gifting-two-ways .m-richtext--layout-3 .m-richtext__button {
+  grid-area: button;
+  align-self: end;
+  margin-top: 0 !important;
+}
+
+.m-gifting-two-ways .m-richtext--layout-3 .m-button {
+  min-height: 0;
+  padding: 11px 24px;
+  font-size: 13px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+/* Mobile: stack the button under the text */
+@media (max-width: 480px) {
+  .m-gifting-two-ways .m-richtext--layout-3 {
+    padding: 22px 20px;
+  }
+
+  .m-gifting-two-ways .m-richtext__layout-3-bottom {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "desc"
+      "button";
+  }
+
+  .m-gifting-two-ways .m-richtext--layout-3 .m-richtext__button {
+    align-self: start;
+    margin-top: 18px !important;
+  }
+}
