@@ -263,7 +263,7 @@
           "settings": {
             "collection": "",
             "title": "Weddings",
-            "item_image": ""
+            "item_image": "shopify://shop_images/9601f4ac992f5763e723a14268949f35438d5caa.png"
           }
         },
         "occ_2": {
@@ -271,7 +271,7 @@
           "settings": {
             "collection": "",
             "title": "Diwali & Festivals",
-            "item_image": ""
+            "item_image": "shopify://shop_images/8072a8166b497e9ede5b67f51109fd2fbcb9a18f.png"
           }
         },
         "occ_3": {
@@ -279,7 +279,7 @@
           "settings": {
             "collection": "",
             "title": "Corporate Gifting",
-            "item_image": ""
+            "item_image": "shopify://shop_images/8072a8166b497e9ede5b67f51109fd2fbcb9a18f.png"
           }
         },
         "occ_4": {
@@ -287,7 +287,7 @@
           "settings": {
             "collection": "",
             "title": "Housewarming",
-            "item_image": ""
+            "item_image": "shopify://shop_images/f7f8fe396307da869deed222d62d2f793d9392cb.png"
           }
         },
         "occ_5": {
@@ -295,7 +295,7 @@
           "settings": {
             "collection": "",
             "title": "Baby Showers",
-            "item_image": ""
+            "item_image": "shopify://shop_images/639542d7f65c92435054c6df4d6531f8d07194c5.png"
           }
         }
       },
@@ -327,7 +327,8 @@
         "enable_slider": false,
         "mobile_disable_slider": true,
         "use_scroll_mobile": true,
-        "mobile_gap": 12
+        "mobile_gap": 12,
+        "custom_class": "m-gifting-occasion"
       }
     },
     "gifting_faqs": {
@@ -498,7 +499,22 @@
         "subheading": "@pateldryfruit",
         "description": "",
         "button_label": "",
-        "button_link": ""
+        "button_link": "",
+        "container": "container-full",
+        "color_scheme": "",
+        "color_scheme_content": "",
+        "icon": "none",
+        "layout": "grid",
+        "grid_columns": 8,
+        "column_gap": 6,
+        "row_gap": 0,
+        "columns_mobile": "2",
+        "mobile_gap": 6,
+        "use_scroll_mobile": false,
+        "padding_top": 30,
+        "padding_bottom": 0,
+        "custom_class": "m-gifting-instagram",
+        "animations": "inherit"
       }
     }
   },
