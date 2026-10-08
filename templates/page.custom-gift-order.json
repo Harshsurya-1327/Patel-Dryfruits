@@ -46,7 +46,8 @@
         "subheading": "@pateldryfruit",
         "description": "",
         "button_label": "",
-        "button_link": ""
+        "button_link": "",
+        "custom_class": "m-gifting-instagram"
       }
     }
   },
