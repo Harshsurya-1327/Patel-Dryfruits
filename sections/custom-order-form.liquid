@@ -77,6 +77,17 @@
               >
             </div>
 
+            <div class="m-gift-form__field m:column m:w-full ">
+              <input
+                type="email"
+                class="form-field form-field--input"
+                name="contact[email]"
+                value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                placeholder="{{ section.settings.email_label | default: 'Enter your Email Id' }}"
+                required
+              >
+            </div>
+
             <div class="m-gift-form__field m:column m:w-full md:m:w-1/2">
               <select class="form-field form-field--input" name="contact[Occasion]">
                 <option value="">{{ section.settings.occasion_label | default: 'Occasion' }}</option>
