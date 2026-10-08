@@ -105,18 +105,6 @@
     "use_theme_currencies": true,
     "theme_currencies": "USD | EUR | GBP | VND",
     "content_for_index": [],
-    "blocks": {
-      "14060646107696862457": {
-        "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-        "disabled": false,
-        "settings": {}
-      },
-      "12710022544798772828": {
-        "type": "shopify://apps/tazoh-shoppable-videos-reels/blocks/app-embed-block/ce65ddbc-2364-4354-8472-13306a0d4423",
-        "disabled": false,
-        "settings": {}
-      }
-    },
     "color_schemes": {
       "default": {
         "settings": {

@@ -173,3 +173,8 @@ select.form-field.form-field--input {
 [id$="custom_order_instagram"] .m-section__header {
   margin-bottom: 24px;
 }
+
+
+.shopify-section:has(.m-gifting-instagram) {
+  margin-bottom: 64px;
+}

@@ -18,11 +18,11 @@
       "type": "bulk-enquiry-form",
       "settings": {
         "container": "container-fluid",
-        "header_bg": "#FBEEC7",
+        "header_bg": "#fbeec7",
         "eyebrow": "",
         "heading": "Bulk & Corporate Gifting",
         "description": "Gifting for your team, clients, or event? Let's discuss volume, branding, and timelines.",
-        "image": "",
+        "image": "shopify://shop_images/5a216ebf8ce5692380268a53c3881fef702f3cb6.png",
         "company_label": "Company / Organisation",
         "contact_person_label": "Contact Person",
         "phone_label": "Phone",
@@ -38,25 +38,103 @@
     "bulk_enquiry_instagram": {
       "type": "gallery",
       "blocks": {
-        "gal_1": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/pateldryfruit/" } },
-        "gal_2": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/pateldryfruit/" } },
-        "gal_3": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/pateldryfruit/" } },
-        "gal_4": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/pateldryfruit/" } },
-        "gal_5": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/pateldryfruit/" } },
-        "gal_6": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/pateldryfruit/" } },
-        "gal_7": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/pateldryfruit/" } },
-        "gal_8": { "type": "image", "settings": { "image": "", "link": "https://www.instagram.com/pateldryfruit/" } }
+        "gal_1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1f56c5b4fd13d373f91d76c59d97fd7d59b4edd4.png",
+            "link": "https://www.instagram.com/pateldryfruit/"
+          }
+        },
+        "gal_2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ca2ea6a4ca868e65268a14e8c7f59bd14c99b079_1.png",
+            "link": "https://www.instagram.com/pateldryfruit/"
+          }
+        },
+        "gal_3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e8272ee8112c528518f124a3634b4e5bee38b49d.png",
+            "link": "https://www.instagram.com/pateldryfruit/"
+          }
+        },
+        "gal_4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/83cd6837ce962920986610f8c673e55bc3f41f6c.png",
+            "link": "https://www.instagram.com/pateldryfruit/"
+          }
+        },
+        "gal_5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/c88ebdfd89455894747af8632368f82475cee040.png",
+            "link": "https://www.instagram.com/pateldryfruit/"
+          }
+        },
+        "gal_6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/f74e1fa3b0128d7868ed7f5e5e3979a4b7a6bdc2.png",
+            "link": "https://www.instagram.com/pateldryfruit/"
+          }
+        },
+        "gal_7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/679c82e99715858c56785e7e9b318e3bf8b88624.png",
+            "link": "https://www.instagram.com/pateldryfruit/"
+          }
+        },
+        "gal_8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/184c6d6c13c36153b67c915f4058b1d4b3dbefdc.png",
+            "link": "https://www.instagram.com/pateldryfruit/"
+          }
+        }
       },
-      "block_order": ["gal_1", "gal_2", "gal_3", "gal_4", "gal_5", "gal_6", "gal_7", "gal_8"],
+      "block_order": [
+        "gal_1",
+        "gal_2",
+        "gal_3",
+        "gal_4",
+        "gal_5",
+        "gal_6",
+        "gal_7",
+        "gal_8"
+      ],
       "settings": {
         "heading": "Follow Our Instagram",
         "heading_size": "h3",
         "subheading": "@pateldryfruit",
         "description": "",
         "button_label": "",
-        "button_link": ""
+        "button_link": "",
+        "button_style": "m-button--primary",
+        "header_alignment": "center",
+        "container": "container-fluid",
+        "color_scheme": "",
+        "color_scheme_content": "",
+        "icon": "none",
+        "layout": "grid",
+        "grid_columns": 4,
+        "column_gap": 30,
+        "row_gap": 30,
+        "columns_mobile": "2",
+        "mobile_gap": 10,
+        "use_scroll_mobile": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "custom_class": "m-gifting-instagram",
+        "animations": "inherit"
       }
     }
   },
-  "order": ["main", "bulk_enquiry_form", "bulk_enquiry_instagram"]
+  "order": [
+    "main",
+    "bulk_enquiry_form",
+    "bulk_enquiry_instagram"
+  ]
 }
